@@ -5,7 +5,7 @@ dir=$1
 
 if [ ! -d png/${dir}/squirrel/ ]; then
     mkdir -p png/${dir}/squirrel
-endif
+fi
 
 #Weasel
 #Squirrel
