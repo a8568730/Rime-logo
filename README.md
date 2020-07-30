@@ -6,16 +6,29 @@
 
 Ta̍k款方案ài tsia-ê圖：
 * Weasel
-  * 256.png
+  * Resource
+  * weasel.ico: 256
 * Squirrel 
-  * 1024.png
-  * menubar18.png
+  * Assets.xcassets: 1024
+  * menubar18: 18
 * Fcitx
-  * 48.png
-  * 48.svg
-  * 128.png
+  * ithuan/data
+  * ithuan.png: 48
+  * ithuan.svg: 48
+  * ithuan128.png: 128
 
 ### Weasel 
+
+* weasel.ico
+Sing uì AI thòo 256.png, tsiah-koh tsáu:
+```
+bash weasel.sh {HONG_AN_MIA}
+```
+Tshiūnn
+```
+bash weasel.sh kip-hanlo
+```
+Weasel.ico tō-ē tī `kip-hanlo/weasel/`.
 
 ### Squirrel
 
@@ -27,10 +40,3 @@ Ta̍k款方案ài tsia-ê圖：
 1024.png, uì AI thòo-tshut, koh hōo `icon-set-creator` tsuán-tshut kî-thann tshùn-tshioh. 
 Menubar18.png, uì AI thòo-tshut. 
 
-## Deploy
-
-### Windows icon
-Khǹg tī `png/weasel/`.
-```
-$ convert png/weasel/{MIA}.png -define icon:auto-resize="16,32,48,64,128,256" {MIA}.ico
-```
