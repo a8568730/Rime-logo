@@ -3,8 +3,12 @@
 # Su-jip-huat e mia
 dir=$1
 
+if [ ! -d png/${dir}/squirrel/ ]; then
+    mkdir -p png/${dir}/squirrel
+endif
+
 #Weasel
 #Squirrel
-convert ${dir}/svg/48.svg -define icon:auto-resize="18" ${dir}/png/squirrel/18.png
+convert svg/${dir}/48.svg -define icon:auto-resize="18" png/${dir}/squirrel/18.png
 
 #Fcitx
