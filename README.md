@@ -40,3 +40,8 @@ Weasel.ico tō-ē tī `kip-hanlo/weasel/`.
 1024.png, uì AI thòo-tshut, koh hōo `icon-set-creator` tsuán-tshut kî-thann tshùn-tshioh. 
 Menubar18.png, uì AI thòo-tshut. 
 
+### Fcitx
+
+  * ithuan.png, ithuan.svg, ithuan128.png lóng uì AI.
+
+
