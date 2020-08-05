@@ -14,13 +14,15 @@ Ta̍k 款方案 ài tsia-ê 寸尺：
 | fcitx-rime | 48 |  ithuan.svg  |  
 | fcitx-rime | 128 |  ithuan128.png  | 
 
+PNG 直接 uì AI 吐.
+
 ### Weasel.ico 
 
-Sing uì AI thòo `256.png`, tsiah-koh tsáu:
+先 uì AI 吐 `256.png`, tsiah-koh 走:
 ```
 bash weasel.sh {HONG_AN_MIA}
 ```
-Tshiūnn
+親像
 ```
 bash weasel.sh kip-hanlo
 ```
@@ -28,4 +30,4 @@ Weasel.ico tō-ē tī `kip-hanlo/weasel/`.
 
 ### AppIcon
 
-Sing uì AI thòo 1024 ê `ithuan.png`, hōo MacOs App ê `icon-set-creator` tsuán.
+先 uì AI 吐 1024 ê `ithuan.png`, hōo MacOs App ê `icon-set-creator` 轉.
