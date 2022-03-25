@@ -16,6 +16,10 @@ Ta̍k 款方案 ài tsia-ê 寸尺：
 
 PNG 直接 uì AI 吐.
 
+### AI 吐 PNG
+
+File > Export > Export as Web, 寸尺才會四方。
+
 ### Weasel.ico 
 
 先 uì AI 吐 `256.png`, tsiah-koh 走:
@@ -45,3 +49,10 @@ Weasel.ico tō-ē tī `kip-hanlo/weasel/`.
 | POJ-choanlo | #FFB866 | 淺黃 |
 | TOJ | #81B622 | 綠 |
 
+
+### 客語
+
+| 輸入法 | 色 | 備註 |
+|-|-|-|
+|  | #8D61E8 | 紫 |
+|  | #C36BFF | 紫淺 |
