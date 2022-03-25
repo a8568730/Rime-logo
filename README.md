@@ -31,3 +31,17 @@ Weasel.ico tō-ē tī `kip-hanlo/weasel/`.
 ### AppIcon
 
 先 uì AI 吐 1024 ê `ithuan.png`, hōo MacOs App ê `icon-set-creator` 轉.
+
+
+## 色盤
+
+### 台語
+
+| 輸入法 | 色 | 備註 |
+|-|-|-|
+| Kip-hanlo | #DC2238 | 紅 |
+| Kip-tsuanlo | #FF93A8 | 粉 |
+| POJ-hanlo | #DC7722 | 黃 |
+| POJ-choanlo | #FFB866 | 淺黃 |
+| TOJ | #81B622 | 綠 |
+
