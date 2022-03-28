@@ -31,14 +31,20 @@ PNG 直接 uì AI 吐.
 ### Weasel.ico 
 
 先 uì AI 吐 `256.png`, tsiah-koh 走:
-```
+```bash
 bash weasel.sh {HONG_AN_MIA}
 ```
 親像
-```
+```bash
 bash weasel.sh kip-hanlo
 ```
 Weasel.ico tō-ē tī `kip-hanlo/weasel/`.
+
+#### Dependencies
+
+```bash
+brew install imagemagick
+```
 
 ### AppIcon
 
