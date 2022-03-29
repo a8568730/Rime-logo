@@ -1,48 +1,107 @@
 # Rime-logo
 意傳輸入法標頭
 
-
 ## Khai-huat
 
-Ta̍k 款方案 ài tsia-ê 寸尺：
-|OS|寸尺| 檔名 |
-|-|-|-|
-| weasel  | 256 |  256.png (weasel.ico) | 
-| squirrel  | 1024 |  ithuan.png (AppIcon) | 
-| squirrel | 18 | menubar18.png | 
-| fcitx-rime | 48 |  ithuan.png  |  
-| fcitx-rime | 48 |  ithuan.svg  |  
-| fcitx-rime | 128 |  ithuan128.png  | 
+Ta̍k款輸入法方案有6張圖，分別是tsia-ê 寸尺：
+| 流水號 | Rime frontend | 寸尺 | 檔名 |
+|-|-|-|-|
+| 1 | weasel  | 256 |  256.png (weasel.ico) | 
+| 2 | squirrel  | 1024 |  ithuan.png (AppIcon) | 
+| 3 | squirrel | 18 | menubar18.png | 
+| 4 | fcitx-rime | 48 |  ithuan.png  |  
+| 5 | fcitx-rime | 48 |  ithuan.svg  |  
+| 6 | fcitx-rime | 128 |  ithuan128.png  | 
 
-PNG 直接 uì AI 吐.
+請照寸尺表，uì AI吐一款方案全部寸尺的PNG kah SVG，才隨Rime frontend轉檔指令得著圖檔。
 
-### AI 吐 PNG
+親像kip-hanlo有：
+```
+kip-hanlo
+├── fcitx-rime
+│   ├── ithuan.png(48)
+│   ├── ithuan.svg(48)
+│   └── ithuan128.png(128)
+├── squirrel
+│   ├── ithuan.png(1024)
+│   ├── macOS
+│   │   └── AppIcon.appiconset
+│   │       ├── Contents.json
+│   │       ├── ithuan-1024.png
+│   │       ├── ithuan-128.png
+│   │       ├── ithuan-16.png
+│   │       ├── ithuan-256.png
+│   │       ├── ithuan-32.png
+│   │       ├── ithuan-512.png
+│   │       └── ithuan-64.png
+│   └── menubar18.png(18)
+└── weasel
+    └── weasel.ico(256)
+```
+
+### AI 
+
+#### 吐 PNG
 
 - Select all. 
 - `File > Export Selection > Artboards`.
 - Done.
 
-### AI 吐 SVG
+#### 吐 SVG
 
 - Select artboard `48`.
 - `File > Export > Export as...`, choose `svg`.
 - Done.
 
-### Weasel.ico 
+AI會自動附加流水號`-01`，親像`48-01.svg`.
 
-先 uì AI 吐 `256.png`, tsiah-koh 走:
+### 轉做 Fctix-rime icon
+
+- 照寸尺表uì AI吐48.png, 48.svg, 128.png到 `HONGAN_MIA/fcitx-rime`.
+- 轉檔.
+
+#### 轉檔指令
+
+```bash
+bash rename-png-fcitx-rime.sh {HONG_AN_MIA}
 ```
+
+親像：
+```bash
+bash rename-png-fcitx-rime.sh kip-hanlo
+```
+
+Ithuan.png, ithuan.svg, ithuan128.png tō-ē tī `kip-hanlo/fcitx-rime/`.
+
+
+### 轉做 Weasel.ico 
+
+- 照寸尺表 uì AI 吐256.png到 `HONGAN_MIA/weasel`.
+- 轉檔.
+
+#### Dependencies
+
+```bash
+apt install imagemagick
+```
+
+#### 轉檔指令
+
+```bash
 bash rename-png-weasel.sh {HONG_AN_MIA}
 ```
-親像
-```
+
+親像：
+```bash
 bash rename-png-weasel.sh kip-hanlo
 ```
+
 Weasel.ico tō-ē tī `kip-hanlo/weasel/`.
 
-### AppIcon
 
-先 uì AI 吐 1024 ê `ithuan.png`, hōo MacOs App ê `icon-set-creator` 轉.
+### 轉做 AppIcon
+
+先 uì AI 吐 1024 ê `ithuan.png`, hōo MacOs App ê `icon-set-creator` 轉, 揀`macOS`.
 
 ## 客語
 
@@ -66,17 +125,17 @@ Uì AI 轉好勢tō tsáu `hag.sh`.
 
 | 輸入法 | 色 | 備註 |
 |-|-|-|
-|  | 8D61E8 | purple |
-|  | C36BFF | light purple |
-||617EE8|blue|
-||6BB2FF|lightblue|
-||40B35E|green|
-||8FFFAC|ligbhtgreen|
-||FF8F93|pink|
-||FFC3C2|lightpink|
-||E89756|yellow|
-||FFBD5E|lightyellow|
-||BFB563|lime|
-||E6D977|lightlime|
-||4EBFBA|teal|
-||5EE6DF|lightteal|
+|-| 8D61E8 | purple |
+|-| C36BFF | light purple |
+|-|617EE8|blue|
+|-|6BB2FF|lightblue|
+|-|40B35E|green|
+|-|8FFFAC|ligbhtgreen|
+|-|FF8F93|pink|
+|-|FFC3C2|lightpink|
+|-|E89756|yellow|
+|-|FFBD5E|lightyellow|
+|-|BFB563|lime|
+|-|E6D977|lightlime|
+|-|4EBFBA|teal|
+|-|5EE6DF|lightteal|
