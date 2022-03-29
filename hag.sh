@@ -7,6 +7,7 @@ looarr=(hag-1-purple hag-2-lightpurple hag-3-blue hag-4-lightblue hag-5-green ha
 
 for loo in "${looarr[@]}"
 do
-  echo $loo
-  bash weasel.sh $loo
+  bash rename-png-weasel.sh $loo
+  bash rename-png-squirrel.sh $loo
+  bash rename-png-fcitx-rime.sh $loo
 done

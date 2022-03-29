@@ -32,11 +32,11 @@ PNG 直接 uì AI 吐.
 
 先 uì AI 吐 `256.png`, tsiah-koh 走:
 ```
-bash weasel.sh {HONG_AN_MIA}
+bash rename-png-weasel.sh {HONG_AN_MIA}
 ```
 親像
 ```
-bash weasel.sh kip-hanlo
+bash rename-png-weasel.sh kip-hanlo
 ```
 Weasel.ico tō-ē tī `kip-hanlo/weasel/`.
 
