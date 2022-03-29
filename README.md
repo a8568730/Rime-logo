@@ -63,12 +63,12 @@ AI會自動附加流水號`-01`，親像`48-01.svg`.
 #### 轉檔指令
 
 ```bash
-bash fcitx-rime.sh {HONG_AN_MIA}
+bash rename-png-fcitx-rime.sh {HONG_AN_MIA}
 ```
 
 親像：
 ```bash
-bash weasel.sh kip-hanlo
+bash rename-png-fcitx-rime.sh kip-hanlo
 ```
 
 Ithuan.png, ithuan.svg, ithuan128.png tō-ē tī `kip-hanlo/fcitx-rime/`.
@@ -88,12 +88,12 @@ apt install imagemagick
 #### 轉檔指令
 
 ```bash
-bash weasel.sh {HONG_AN_MIA}
+bash rename-png-weasel.sh {HONG_AN_MIA}
 ```
 
 親像：
 ```bash
-bash weasel.sh kip-hanlo
+bash rename-png-weasel.sh kip-hanlo
 ```
 
 Weasel.ico tō-ē tī `kip-hanlo/weasel/`.
@@ -103,6 +103,10 @@ Weasel.ico tō-ē tī `kip-hanlo/weasel/`.
 
 先 uì AI 吐 1024 ê `ithuan.png`, hōo MacOs App ê `icon-set-creator` 轉, 揀`macOS`.
 
+## 客語
+
+因為方案有14 ê, 有tshòng `hag.sh` kā轉檔指令包起來. 
+Uì AI 轉好勢tō tsáu `hag.sh`.
 
 ## 色盤
 
