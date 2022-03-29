@@ -44,6 +44,10 @@ Weasel.ico tō-ē tī `kip-hanlo/weasel/`.
 
 先 uì AI 吐 1024 ê `ithuan.png`, hōo MacOs App ê `icon-set-creator` 轉.
 
+## 客語
+
+因為方案有14 ê, 有tshòng `hag.sh` kā轉檔指令包起來. 
+Uì AI 轉好勢tō tsáu `hag.sh`.
 
 ## 色盤
 
