@@ -9,4 +9,5 @@ for loo in "${looarr[@]}"
 do
   echo $loo
   bash fcitx-rime.sh $loo
-done
+  bash rename-squirrel-png.sh $loo
+ done

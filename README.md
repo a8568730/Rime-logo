@@ -101,7 +101,7 @@ Weasel.ico tō-ē tī `kip-hanlo/weasel/`.
 
 ### 轉做 AppIcon
 
-先 uì AI 吐 1024.png, hōo MacOs App ê `icon-set-creator` 轉.
+先 uì AI 吐 1024 ê `ithuan.png`, hōo MacOs App ê `icon-set-creator` 轉, 揀`macOS`.
 
 
 ## 色盤
